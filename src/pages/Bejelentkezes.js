@@ -1,6 +1,6 @@
-import {uspeeeState} from 'react';
+import {useState} from 'react';
 import {useNavigate} from 'react-router-dom';
-import {login} from '../AuthService';
+import {login} from './AuthService';
 
 export function Bejelentkezes(){
     const [isLoginPending, setLoginPending] = useState(false);

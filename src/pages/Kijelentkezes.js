@@ -1,5 +1,5 @@
 import { useNavigate } from "react-router-dom";
-import { logout } from "../AuthService";
+import { logout } from "./AuthService";
 
 export function Kijelentkezes(){
     const navigate = useNavigate();
